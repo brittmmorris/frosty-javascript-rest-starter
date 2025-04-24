@@ -11,7 +11,7 @@ This Node.js script shows how to send a prompt to Frosty AI using the REST API.
 2. Install dependencies:
 
 ```bash
-    npm install node-fetch dotenv
+    npm install
 ```
 3.  Run the script:
 ```bash
