@@ -22,11 +22,11 @@ This Node.js script shows how to send a prompt to Frosty AI using the REST API.
 Always proxy requests through a backend to keep keys secure.
 
 ## 🧠 What It Does
-Calls Frosty’s /chat endpoint with a prompt
+- Calls Frosty’s /chat endpoint with a prompt
+- Authenticates with router_id and router_key
+- Supports routing rules like cost, performance, or none
+- Handles retries, logging, and observability for you
 
-Authenticates with router_id and router_key
-
-Supports routing rules like cost, performance, or none
 
 ## 💡 Example Output
 ```json
