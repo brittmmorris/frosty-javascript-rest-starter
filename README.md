@@ -6,14 +6,21 @@ This Node.js script shows how to send a prompt to Frosty AI using the REST API.
 
 ## ⚙️ Setup
 
-1. Copy `.env.example` to `.env` and fill in your Router Key and Router Id.
+1. Clone the repo
 
-2. Install dependencies:
+```bash
+git clone https://github.com/brittmmorris/frosty-javascript-rest-starter
+cd frosty-javascript-rest-starter
+```
+
+2. Copy `.env.example` to `.env` and fill in your Router Key and Router Id.
+
+3. Install dependencies:
 
 ```bash
     npm install
 ```
-3.  Run the script:
+4.  Run the script:
 ```bash
     node index.js
 ```
